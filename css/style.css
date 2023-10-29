@@ -6,8 +6,34 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-inline: 19px;
+}
+
+.header a {
+    font-size: 26px;
+    color: #000;
+}
+
+.header a > img {
+    margin-top: 3px;
+}
+
 .container {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,3 +41,48 @@
     margin: 0 auto;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+.profile-img img {
+    max-width: 260px;
+}
+
+.main-text, .sub-text {
+    color: #000;
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.sub-text {
+    width: 40rem;
+}
+
+.sub-text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.main-btn {
+
+}
+
+.main-btn a {
+
+}
+
+.btn-fill {
+  
+}
+
+.btn-outline {
+ 
+}
