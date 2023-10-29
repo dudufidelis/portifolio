@@ -1,3 +1,9 @@
+:root {
+    --blue-50: #3C85F3;
+    --blue-100: #001C81;
+    --shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
 * {
     font-family: 'Noto Serif', serif;
     padding: 0;
@@ -24,8 +30,8 @@ section {
 }
 
 .header a {
-    font-size: 26px;
     color: #000;
+    font-size: 1.6rem;
 }
 
 .header a > img {
@@ -50,6 +56,8 @@ section {
 
 .profile-img img {
     max-width: 260px;
+    cursor: pointer;
+    filter: drop-shadow(9px 9px 3px rgba(0, 0, 0, 0.25));
 }
 
 .main-text, .sub-text {
@@ -72,17 +80,47 @@ section {
 }
 
 .main-btn {
-
+    display: flex;
+    gap: 3rem;
+    margin: 2.5rem;
 }
 
 .main-btn a {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21rem;
+    height: 5rem;
+    box-shadow: var(--shadow);
+    font-size: 2rem;
+    font-weight: 700;
+    border: 5px solid var(--blue-100);
+    border-radius: 0.6rem;
+    transition: all 300ms ease-in-out;
 }
 
 .btn-fill {
-  
+    background: var(--blue-50);
+    color: #FFF;
+}
+
+.btn-fill:hover {
+    background-color: #FFF;
+    color: #000;
+    transform: scale(0.95);
+    box-shadow: var(--shadow);
 }
 
 .btn-outline {
- 
+    color: #000;
 }
+
+.btn-outline:hover {
+    color: #FFF;
+    background-color: var(--blue-50);
+    transform: scale(0.95);
+    box-shadow: var(--shadow);
+}
+
+
+
