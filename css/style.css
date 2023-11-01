@@ -154,20 +154,34 @@ section {
     flex-direction: column;
 }
 
-.bio-text {
-    background-color: lightgreen;
-    height: 50%;
+.biography h1 {
+    text-align: center;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1.5rem;
 }
 
-.carrer-text {
-    background-color: lightcoral;
-    height: 50%;
+.underline {
+    text-decoration: underline;
+}
+
+.bio-text, .carrer-text {
+    padding: 1.5rem;
+}
+
+
+.carrer-text p, .bio-text p {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
 
 .tecnologys {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    text-align: center;
 }
 
 .biography, .social-midia, .tecnology {
