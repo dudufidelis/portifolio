@@ -15,6 +15,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -235,6 +236,7 @@ section {
 
 #projects {
     height: fit-content;
+    padding-bottom: 8rem;
 }
 
 .projects-content {
@@ -270,6 +272,71 @@ section {
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 3rem;
+}
+
+/* Contact */
+
+.contact-content {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+    margin: 3rem auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 3rem;
+    width: fit-content;
+    padding: 3rem;
+}
+
+.phone-number, .email {
+    display: flex;
+    align-items: center;
+    height: auto;
+    gap: 3rem;
+}
+
+.wpp-btn a, .email-btn a {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 7.5rem;
+    border-radius: 0.625rem;
+    border: 5px solid var(--blue-100);
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.25);
+    transition: all 300ms ease-in-out;
+}
+
+.email-btn a {
+    gap: 1rem;
+}
+
+.wpp-btn a:hover, .email-btn a:hover {
+    transform: scale(0.95);
+    box-shadow: var(--shadow);
+}
+
+.wpp-btn h1, .email-btn h1 {
+    color: #000;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.phone-number h3, .email h3 {
+    color: #000;
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 400;
 }
 
   
