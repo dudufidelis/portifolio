@@ -231,6 +231,47 @@ section {
     gap: 2rem;
 }
 
+/* Projetcs */
+
+#projects {
+    height: fit-content;
+}
+
+.projects-content {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+    margin: 3rem auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+}
+
+.project-description {
+    max-width: 28rem;
+    text-align: center;
+}
+
+.project-description h1 {
+    font-size: 4.3rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+.project-description p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
   
 
 
