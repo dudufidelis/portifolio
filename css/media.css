@@ -47,6 +47,11 @@
         padding: 1rem;
     }
 
+    .biography {
+        height: fit-content;
+        padding: 1rem;
+    }
+
     .biography h1 {
         font-size: 1.3rem;
     }
@@ -57,7 +62,6 @@
     }
 
     .aboutme-content {
-
         height: fit-content;
         padding-bottom: 5rem;
         flex-direction: column;
@@ -69,8 +73,23 @@
         gap: 2rem;
     }
 
+    .tecnology, .social-midia {
+        gap: 4rem;
+        width: 630px;
+    }
+
     #about-me {
         height: auto;
+    }
+
+    .phone-number h3, .email h3, .arrow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 931px) {
+    .main-text h1 {
+       font-size: 3rem;
     }
 }
 

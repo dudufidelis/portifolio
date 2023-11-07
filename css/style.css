@@ -31,34 +31,12 @@ html {
     background-color: var(--blue-100);
 }
   
-
 section {
     height: 100vh;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding-inline: 19px;
-}
-
-.header a {
-    color: #000;
-    font-size: 1.6rem;
-}
-
-.header a > img {
-    margin-top: 3px;
-}
-
 .container {
     width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
 }
 
@@ -141,7 +119,6 @@ section {
 /*About me*/
 
 .aboutme-content {
-    width: 90%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -244,7 +221,6 @@ section {
 }
 
 .projects-content {
-    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -286,7 +262,6 @@ section {
 /* Contact */
 
 .contact-content {
-    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
