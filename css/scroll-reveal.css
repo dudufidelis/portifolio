@@ -1,0 +1,7 @@
+.biography,
+ .carrer-text,
+  .tecnologys,
+   .contact-content,
+    .project-img {
+    visibility: hidden;
+}
