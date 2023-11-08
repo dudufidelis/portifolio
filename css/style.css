@@ -1,11 +1,11 @@
 :root {
-    --blue-50: #3C85F3;
-    --blue-100: #001C81;
+    --blue-50: #3c85f3;
+    --blue-100: #001c81;
     --shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
 * {
-    font-family: 'Noto Serif', serif;
+    font-family: "Noto Serif", serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-    background-color: #FFF;
+    background-color: #fff;
     width: 7px;
 }
 
@@ -30,7 +30,7 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--blue-100);
 }
-  
+
 section {
     height: 100vh;
 }
@@ -53,7 +53,8 @@ section {
     filter: drop-shadow(9px 9px 3px rgba(0, 0, 0, 0.25));
 }
 
-.main-text, .sub-text {
+.main-text,
+.sub-text {
     color: #000;
     text-align: center;
 }
@@ -95,11 +96,11 @@ section {
 
 .btn-fill {
     background: var(--blue-50);
-    color: #FFF;
+    color: #fff;
 }
 
 .btn-fill:hover {
-    background-color: #FFF;
+    background-color: #fff;
     color: #000;
     transform: scale(0.95);
     box-shadow: var(--shadow);
@@ -110,7 +111,7 @@ section {
 }
 
 .btn-outline:hover {
-    color: #FFF;
+    color: #fff;
     background-color: var(--blue-50);
     transform: scale(0.95);
     box-shadow: var(--shadow);
@@ -143,12 +144,13 @@ section {
     text-decoration: underline;
 }
 
-.bio-text, .carrer-text {
+.bio-text,
+.carrer-text {
     padding: 1.5rem;
 }
 
-
-.carrer-text p, .bio-text p {
+.carrer-text p,
+.bio-text p {
     color: #000;
     font-size: 1.4rem;
     font-weight: 400;
@@ -161,23 +163,26 @@ section {
     text-align: center;
 }
 
-.biography, .social-midia, .tecnology {
+.biography,
+.social-midia,
+.tecnology {
     border-radius: 10px;
-    border: 5px solid #001C81;
+    border: 5px solid #001c81;
     box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.25);
-  }
+}
 
-.biography { 
+.biography {
     width: 630px;
     height: 545px;
 }
 
-.social-midia { 
+.social-midia {
     width: 430px;
     height: 205px;
 }
 
-.social-midia h1, .tecnology h1 {
+.social-midia h1,
+.tecnology h1 {
     padding: 1rem;
 }
 
@@ -194,9 +199,9 @@ section {
     transform: scale(0.95);
 }
 
-.tecnology { 
+.tecnology {
     width: 430px;
-    height: 288px; 
+    height: 288px;
 }
 
 .tecnology-icons {
@@ -274,20 +279,23 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
     gap: 3rem;
-    width: fit-content;
-    padding: 3rem;
+    padding: 2rem;
 }
 
-.phone-number, .email {
+.phone-number,
+.email {
+    width: 100%;
     display: flex;
     align-items: center;
     height: auto;
     gap: 3rem;
 }
 
-.wpp-btn a, .email-btn a {
+.wpp-btn a,
+.email-btn a {
     color: #000;
     display: flex;
     align-items: center;
@@ -304,19 +312,22 @@ section {
     gap: 1rem;
 }
 
-.wpp-btn a:hover, .email-btn a:hover {
+.wpp-btn a:hover,
+.email-btn a:hover {
     transform: scale(0.95);
     box-shadow: var(--shadow);
 }
 
-.wpp-btn h1, .email-btn h1 {
+.wpp-btn h1,
+.email-btn h1 {
     color: #000;
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
 }
 
-.phone-number h3, .email h3 {
+.phone-number h3,
+.email h3 {
     color: #000;
     text-align: center;
     font-size: 2.1rem;
@@ -336,14 +347,8 @@ footer {
 }
 
 footer h1 {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
 }
-
-  
-
-
-
-
