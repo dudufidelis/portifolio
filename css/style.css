@@ -32,7 +32,11 @@ html {
 }
 
 section {
-    height: 100vh;
+    height: auto;
+}
+ 
+#main {
+    padding-bottom: 10rem;
 }
 
 .container {
@@ -222,7 +226,7 @@ section {
 
 #projects {
     height: fit-content;
-    padding-bottom: 8rem;
+    
 }
 
 .projects-content {
